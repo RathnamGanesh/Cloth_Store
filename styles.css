@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: 'Gloria Hallelujah';
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+.bg-container {
+    background-image: url("https://t4.ftcdn.net/jpg/09/04/10/49/360_F_904104918_9AAX5wxhIvYsF8AzlRgVLJ7Ft657aYcD.jpg");
+    height: 100vh;
+    color: #ffffff;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* Default: Align content to the bottom */
+    align-items: center;
+    position: relative;
+    background-color: #e8e8e8;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* Ensure the navbar is unaffected */
+}
+
+.navbar {
+    position: fixed;
+    /* Fix the navbar at the top */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Ensure it stays above other elements */
+    background-color: #00274d !important;
+    color: #ffffff;
+    /* Transparent background */
+}
+.logo{
+    width:50px !important;
+    height: 50px !important ;
+    border-radius:50%  !important;
+}
+
+.head {
+    display: flex !important;
+    background-color: transparent !important;
+    color: #ffffff;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+    padding: 1rem;
+    margin-top: auto;
+    /* Push to the bottom by default */
+}
+
+.container {
+    background-color: #ffffff;
+}
+
+/* For screens above 768px */
+@media (min-width: 768px) {
+    .bg-container {
+        justify-content: center;
+        /* Center content for larger screens */
+    }
+
+    .head {
+        align-self: center;
+        /* Ensure it remains centered */
+        margin-top: 0;
+        /* Remove margin adjustment for larger screens */
+    }
+}
+
+.nav-link {
+    color: #ffffff !important;
+    /* Choose your desired color */
+}
+
+.nav-link:hover {
+    color: #ffcc00 !important;
+    /* Hover color */
+}
+
+.navbar-toggler-icon {
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Light white color with some transparency */
+    border-radius: 4px;
+    /* Optional: Adds a rounded look */
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.para {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.head {
+    display: flex !important;
+    background-color: transparent !important;
+    color: #fffff3;
+    justify-content : center !important;
+    align-items: center !important;
+
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+.products-container {
+    background-color: #e8f4f8;
+    padding: 2rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.product {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.pro {
+    border-radius: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px !important;
+    max-width: 350px;
+}
+
+.pro-card {
+    height: 600px;
+    width: 250px;
+}
+
+.pro-heading {
+    font-size: 30px !important;
+}
+
+.pro-para {
+    font-size: 18px !important
+}
+
+.cart {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.cart-img {
+    width: 50%;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    background-color: #00274d;
+    color: #ffcc00;
+    padding: 1.5rem;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+
+.ul {
+    list-style-type: none;
+}
+
+.form {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.feedback-img {
+    width: 100%;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
